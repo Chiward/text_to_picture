@@ -1,0 +1,102 @@
+/* 全局和字体设置 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #eee; /* 添加一个背景色，方便预览 */
+}
+
+/* 画布容器 */
+#canvas {
+    width: 828px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 通用页面样式 */
+.page {
+    width: 100%;
+    box-sizing: border-box;
+    display: none; /* 默认隐藏，由脚本控制显示 */
+    background-color: #f9f9f9; /* 默认背景色 */
+}
+
+/* --- Page 1 新布局 --- */
+
+/* 第一页的容器，移除内边距 */
+.page-1-container {
+    padding: 0;
+}
+
+/* 渐变色头部 */
+.page1-header {
+    height: 384px; /* 大约占1/4多一些的高度 */
+    background-image: linear-gradient(to bottom, #ADD8E6, #F08080);
+}
+
+/* 第一页的内容区域，用于放置文本 */
+.page1-body {
+    padding: 30px 40px 40px 40px;
+}
+
+/* 头像容器，使用负边距上提，使其与头部重叠 */
+.avatar-container {
+    width: 300px;
+    height: 300px;
+    background-color: #d9a37c;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: -150px;  /* 关键：将头像向上移动，一半在头部，一半在下方 */
+    margin-bottom: 30px;
+}
+
+/* --- 通用元素样式 --- */
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 0; /* 调整边距 */
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.content {
+    font-size: 48px;
+    color: #444;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.content p {
+    margin: 0 0 25px 0; /* 缩小段落下边距 */
+}
+
+/* 后续页面的内边距 */
+.page-n-container {
+    padding: 40px;
+}
+
+.content ul, .content ol {
+    padding-left: 25px;
+}
+
+.content li {
+    margin-bottom: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red-text {
+    color: #d9534f;
+}
