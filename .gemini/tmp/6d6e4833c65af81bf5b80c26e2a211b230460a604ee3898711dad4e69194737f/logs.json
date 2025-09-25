@@ -1,0 +1,170 @@
+[
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 0,
+    "type": "user",
+    "message": "/chat list",
+    "timestamp": "2025-09-25T12:32:55.140Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 1,
+    "type": "user",
+    "message": "@C:\\Users\\19412\\.gemini\\tmp\\3cef10c9cdf5a02ab3cf5e5e6202b7eb50a945786553c1afd0c4e954e8210f38\\chats\\session-2025-09-25T10-02-7d2657ef.json 请恢复该聊天。",
+    "timestamp": "2025-09-25T12:33:49.483Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 2,
+    "type": "user",
+    "message": "不符合，生成的图片数量太多了。并且字体太小了。",
+    "timestamp": "2025-09-25T12:35:19.430Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 3,
+    "type": "user",
+    "message": "cd .gemini",
+    "timestamp": "2025-09-25T12:52:36.898Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 4,
+    "type": "user",
+    "message": "@C:\\Users\\19412\\Desktop\\案例2\\输入\\《作为老板，sop真的可以帮你更好掌握业务一线》.txt @C:\\Users\\19412\\Desktop\\案例2\\输入\\用户头像.webp 请用这两个文件进行测试一下。",
+    "timestamp": "2025-09-25T12:53:49.957Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 5,
+    "type": "user",
+    "message": "第二张图片的内容太少，第一张图片的内容太多。调整第一张图片的内容为：标题+前两段正文。",
+    "timestamp": "2025-09-25T12:56:08.162Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 6,
+    "type": "user",
+    "message": "头像再显示大一些。标题和正文也显示大一些。",
+    "timestamp": "2025-09-25T13:03:52.155Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 7,
+    "type": "user",
+    "message": "不够，头像、标题、正文的尺寸还要再放大一些。",
+    "timestamp": "2025-09-25T13:07:05.041Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 8,
+    "type": "user",
+    "message": "将渐变背景、头像位置往下移动；将渐变的颜色改为从上往下是绿到红渐变；首页的段落多了一段，原因是计算机语言是从0开始计算的。",
+    "timestamp": "2025-09-25T13:11:32.986Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 9,
+    "type": "user",
+    "message": "渐变色的顶部出现了白色，请填上渐变色背景；第二页及第三页的内容分配不均，第二页比第三页少了很多。",
+    "timestamp": "2025-09-25T13:16:16.316Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 10,
+    "type": "user",
+    "message": "头像、标题、正文还要再大很多；渐变色背景要往下再扩展到头像的对半位置。",
+    "timestamp": "2025-09-25T13:20:01.353Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 11,
+    "type": "user",
+    "message": "渐变色改为从上到下由蓝渐变红，同时渐变色的范围要向下延伸40个单位。",
+    "timestamp": "2025-09-25T13:23:46.588Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 12,
+    "type": "user",
+    "message": "将渐变色背景上下拉长至1.2倍。",
+    "timestamp": "2025-09-25T13:27:17.977Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 13,
+    "type": "user",
+    "message": "解除渐变色只占画布长度的四分之一的限制，将渐变色往下移动80px。",
+    "timestamp": "2025-09-25T13:28:59.544Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 14,
+    "type": "user",
+    "message": "解除渐变色只占画布长度的四分之一的限制，将渐变色往下移动80px。",
+    "timestamp": "2025-09-25T13:29:27.685Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 15,
+    "type": "user",
+    "message": "头像要再大幅增大，头像要被渐变色的下边平分相交。",
+    "timestamp": "2025-09-25T13:32:29.373Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 16,
+    "type": "user",
+    "message": "头像及下方的正文再整体向上移动100px。",
+    "timestamp": "2025-09-25T13:33:55.235Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 17,
+    "type": "user",
+    "message": "头像及下方的正文再整体向上移动65px。",
+    "timestamp": "2025-09-25T13:35:16.421Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 18,
+    "type": "user",
+    "message": "撤回上一步。",
+    "timestamp": "2025-09-25T13:36:03.231Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 19,
+    "type": "user",
+    "message": "头像及下方的正文再整体向上移动50px。",
+    "timestamp": "2025-09-25T13:37:19.367Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 20,
+    "type": "user",
+    "message": "撤回上一步。",
+    "timestamp": "2025-09-25T13:37:50.245Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 21,
+    "type": "user",
+    "message": "大幅增大正文的字体大小，同时缩小行间距。",
+    "timestamp": "2025-09-25T13:38:52.029Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 22,
+    "type": "user",
+    "message": "大幅增大标题字号，同时缩小正文的段间距。",
+    "timestamp": "2025-09-25T13:40:25.420Z"
+  },
+  {
+    "sessionId": "d2c933ca-c673-41c2-991d-192fa2ccce16",
+    "messageId": 23,
+    "type": "user",
+    "message": "请将本项目保存到git版本。",
+    "timestamp": "2025-09-25T13:48:48.038Z"
+  }
+]

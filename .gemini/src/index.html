@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内容生成模板</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="canvas">
+        <!-- 页面内容将由脚本动态插入 -->
+    </div>
+
+    <script>
+        // 负责渲染所有页面
+        function render(pages_data, avatar_path, project_root) {
+            const canvas = document.getElementById('canvas');
+            canvas.innerHTML = ''; // 清空旧内容
+
+            pages_data.forEach((pageData, index) => {
+                const pageDiv = document.createElement('div');
+                pageDiv.className = 'page';
+                pageDiv.id = `page-${index + 1}`;
+
+                // 设置背景
+                if (index === 0) {
+                    pageDiv.classList.add('page-1-background');
+                    
+                    // 添加头像
+                    const avatarContainer = document.createElement('div');
+                    avatarContainer.className = 'avatar-container';
+                    const avatarImg = document.createElement('img');
+                    avatarImg.className = 'avatar-img';
+                    
+                    const avatar_path_safe = avatar_path.replace(/\/g, '/');
+                    const avatarUrl = `file://${project_root}/` + avatar_path_safe;
+                    avatarImg.src = avatarUrl;
+                    
+                    avatarContainer.appendChild(avatarImg);
+                    pageDiv.appendChild(avatarContainer);
+
+                } else {
+                    pageDiv.classList.add('page-n-background');
+                }
+
+                // 添加标题
+                const titleElem = document.createElement('h1');
+                titleElem.className = 'title';
+                titleElem.innerText = pageData.title;
+                pageDiv.appendChild(titleElem);
+
+                // 添加正文
+                const contentElem = document.createElement('div');
+                contentElem.className = 'content';
+                contentElem.innerHTML = pageData.content_html;
+                pageDiv.appendChild(contentElem);
+
+                canvas.appendChild(pageDiv);
+            });
+        }
+
+        // 用于在截图前切换页面的辅助函数
+        function showPage(pageNumber) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach((page, index) => {
+                if (index + 1 === pageNumber) {
+                    page.style.display = 'block';
+                } else {
+                    page.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
